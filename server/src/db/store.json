@@ -1,0 +1,832 @@
+{
+  "members": [
+    {
+      "id": "MBR-101",
+      "name": "Aarav Sharma",
+      "employeeId": "EMP-4091",
+      "monthlySalary": 65000,
+      "createdAt": "2026-01-15T10:00:00Z"
+    },
+    {
+      "id": "MBR-102",
+      "name": "Priya Patel",
+      "employeeId": "EMP-4102",
+      "monthlySalary": 85000,
+      "createdAt": "2026-02-01T11:30:00Z"
+    },
+    {
+      "id": "MBR-103",
+      "name": "Rohan Verma",
+      "employeeId": "EMP-3882",
+      "monthlySalary": 48000,
+      "createdAt": "2026-02-10T09:15:00Z"
+    },
+    {
+      "id": "MBR-104",
+      "name": "Ananya Iyer",
+      "employeeId": "EMP-4219",
+      "monthlySalary": 95000,
+      "createdAt": "2026-02-20T14:45:00Z"
+    },
+    {
+      "id": "MBR-105",
+      "name": "Vikram Malhotra",
+      "employeeId": "EMP-3920",
+      "monthlySalary": 120000,
+      "createdAt": "2026-03-01T16:20:00Z"
+    },
+    {
+      "id": "MBR-106",
+      "name": "Test Member",
+      "employeeId": "EMP-TEST-1794832131714",
+      "monthlySalary": 75000,
+      "createdAt": "2026-11-16T12:28:51.718Z"
+    },
+    {
+      "id": "MBR-107",
+      "name": "Test Member",
+      "employeeId": "EMP-TEST-1794832158242",
+      "monthlySalary": 75000,
+      "createdAt": "2026-11-16T12:29:18.248Z"
+    },
+    {
+      "id": "MBR-108",
+      "name": "Test Member",
+      "employeeId": "EMP-TEST-1794832180155",
+      "monthlySalary": 75000,
+      "createdAt": "2026-11-16T12:29:40.159Z"
+    },
+    {
+      "id": "MBR-109",
+      "name": "Test Member",
+      "employeeId": "EMP-TEST-1794832645311",
+      "monthlySalary": 75000,
+      "createdAt": "2026-11-16T12:37:25.320Z"
+    },
+    {
+      "id": "MBR-110",
+      "name": "Test Member",
+      "employeeId": "EMP-TEST-1794832783383",
+      "monthlySalary": 75000,
+      "createdAt": "2026-11-16T12:39:43.386Z"
+    }
+  ],
+  "loans": [
+    {
+      "id": "LN-2026-001",
+      "memberId": "MBR-101",
+      "memberName": "Aarav Sharma",
+      "principal": 120000,
+      "tenureMonths": 12,
+      "annualInterestRate": 0.08,
+      "monthlyEmi": 10439,
+      "outstandingBalance": 100658,
+      "status": "Active",
+      "startDate": "2026-01-01",
+      "schedule": [
+        {
+          "emiNumber": 1,
+          "dueDate": "2026-02-01",
+          "openingBalance": 120000,
+          "emiAmount": 10439,
+          "principalComponent": 9639,
+          "interestComponent": 800,
+          "outstandingBalance": 110361,
+          "isPaid": true,
+          "paidAt": "2026-02-01"
+        },
+        {
+          "emiNumber": 2,
+          "dueDate": "2026-03-01",
+          "openingBalance": 110361,
+          "emiAmount": 10439,
+          "principalComponent": 9703,
+          "interestComponent": 736,
+          "outstandingBalance": 100658,
+          "isPaid": true,
+          "paidAt": "2026-03-01"
+        },
+        {
+          "emiNumber": 3,
+          "dueDate": "2026-04-01",
+          "openingBalance": 100658,
+          "emiAmount": 10439,
+          "principalComponent": 9768,
+          "interestComponent": 671,
+          "outstandingBalance": 90890,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 4,
+          "dueDate": "2026-05-01",
+          "openingBalance": 90890,
+          "emiAmount": 10439,
+          "principalComponent": 9833,
+          "interestComponent": 606,
+          "outstandingBalance": 81057,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 5,
+          "dueDate": "2026-06-01",
+          "openingBalance": 81057,
+          "emiAmount": 10439,
+          "principalComponent": 9899,
+          "interestComponent": 540,
+          "outstandingBalance": 71158,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 6,
+          "dueDate": "2026-07-01",
+          "openingBalance": 71158,
+          "emiAmount": 10439,
+          "principalComponent": 9965,
+          "interestComponent": 474,
+          "outstandingBalance": 61193,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 7,
+          "dueDate": "2026-08-01",
+          "openingBalance": 61193,
+          "emiAmount": 10439,
+          "principalComponent": 10031,
+          "interestComponent": 408,
+          "outstandingBalance": 51162,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 8,
+          "dueDate": "2026-09-01",
+          "openingBalance": 51162,
+          "emiAmount": 10439,
+          "principalComponent": 10098,
+          "interestComponent": 341,
+          "outstandingBalance": 41064,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 9,
+          "dueDate": "2026-10-01",
+          "openingBalance": 41064,
+          "emiAmount": 10439,
+          "principalComponent": 10165,
+          "interestComponent": 274,
+          "outstandingBalance": 30899,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 10,
+          "dueDate": "2026-11-01",
+          "openingBalance": 30899,
+          "emiAmount": 10439,
+          "principalComponent": 10233,
+          "interestComponent": 206,
+          "outstandingBalance": 20666,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 11,
+          "dueDate": "2026-12-01",
+          "openingBalance": 20666,
+          "emiAmount": 10439,
+          "principalComponent": 10301,
+          "interestComponent": 138,
+          "outstandingBalance": 10365,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 12,
+          "dueDate": "2027-01-01",
+          "openingBalance": 10365,
+          "emiAmount": 10434,
+          "principalComponent": 10365,
+          "interestComponent": 69,
+          "outstandingBalance": 0,
+          "isPaid": false,
+          "paidAt": null
+        }
+      ],
+      "summary": {
+        "principal": 120000,
+        "tenureMonths": 12,
+        "annualInterestRatePct": 8,
+        "totalInterestPaid": 5263,
+        "totalAmountPaid": 125263,
+        "finalBalance": 0
+      },
+      "foreclosureDetails": null,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "LN-2026-002",
+      "memberId": "MBR-102",
+      "memberName": "Priya Patel",
+      "principal": 250000,
+      "tenureMonths": 24,
+      "annualInterestRate": 0.08,
+      "monthlyEmi": 11307,
+      "outstandingBalance": 240360,
+      "status": "Active",
+      "startDate": "2026-02-01",
+      "schedule": [
+        {
+          "emiNumber": 1,
+          "dueDate": "2026-03-01",
+          "openingBalance": 250000,
+          "emiAmount": 11307,
+          "principalComponent": 9640,
+          "interestComponent": 1667,
+          "outstandingBalance": 240360,
+          "isPaid": true,
+          "paidAt": "2026-03-01"
+        },
+        {
+          "emiNumber": 2,
+          "dueDate": "2026-04-01",
+          "openingBalance": 240360,
+          "emiAmount": 11307,
+          "principalComponent": 9705,
+          "interestComponent": 1602,
+          "outstandingBalance": 230655,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 3,
+          "dueDate": "2026-05-01",
+          "openingBalance": 230655,
+          "emiAmount": 11307,
+          "principalComponent": 9769,
+          "interestComponent": 1538,
+          "outstandingBalance": 220886,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 4,
+          "dueDate": "2026-06-01",
+          "openingBalance": 220886,
+          "emiAmount": 11307,
+          "principalComponent": 9834,
+          "interestComponent": 1473,
+          "outstandingBalance": 211052,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 5,
+          "dueDate": "2026-07-01",
+          "openingBalance": 211052,
+          "emiAmount": 11307,
+          "principalComponent": 9900,
+          "interestComponent": 1407,
+          "outstandingBalance": 201152,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 6,
+          "dueDate": "2026-08-01",
+          "openingBalance": 201152,
+          "emiAmount": 11307,
+          "principalComponent": 9966,
+          "interestComponent": 1341,
+          "outstandingBalance": 191186,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 7,
+          "dueDate": "2026-09-01",
+          "openingBalance": 191186,
+          "emiAmount": 11307,
+          "principalComponent": 10032,
+          "interestComponent": 1275,
+          "outstandingBalance": 181154,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 8,
+          "dueDate": "2026-10-01",
+          "openingBalance": 181154,
+          "emiAmount": 11307,
+          "principalComponent": 10099,
+          "interestComponent": 1208,
+          "outstandingBalance": 171055,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 9,
+          "dueDate": "2026-11-01",
+          "openingBalance": 171055,
+          "emiAmount": 11307,
+          "principalComponent": 10167,
+          "interestComponent": 1140,
+          "outstandingBalance": 160888,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 10,
+          "dueDate": "2026-12-01",
+          "openingBalance": 160888,
+          "emiAmount": 11307,
+          "principalComponent": 10234,
+          "interestComponent": 1073,
+          "outstandingBalance": 150654,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 11,
+          "dueDate": "2027-01-01",
+          "openingBalance": 150654,
+          "emiAmount": 11307,
+          "principalComponent": 10303,
+          "interestComponent": 1004,
+          "outstandingBalance": 140351,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 12,
+          "dueDate": "2027-02-01",
+          "openingBalance": 140351,
+          "emiAmount": 11307,
+          "principalComponent": 10371,
+          "interestComponent": 936,
+          "outstandingBalance": 129980,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 13,
+          "dueDate": "2027-03-01",
+          "openingBalance": 129980,
+          "emiAmount": 11307,
+          "principalComponent": 10440,
+          "interestComponent": 867,
+          "outstandingBalance": 119540,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 14,
+          "dueDate": "2027-04-01",
+          "openingBalance": 119540,
+          "emiAmount": 11307,
+          "principalComponent": 10510,
+          "interestComponent": 797,
+          "outstandingBalance": 109030,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 15,
+          "dueDate": "2027-05-01",
+          "openingBalance": 109030,
+          "emiAmount": 11307,
+          "principalComponent": 10580,
+          "interestComponent": 727,
+          "outstandingBalance": 98450,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 16,
+          "dueDate": "2027-06-01",
+          "openingBalance": 98450,
+          "emiAmount": 11307,
+          "principalComponent": 10651,
+          "interestComponent": 656,
+          "outstandingBalance": 87799,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 17,
+          "dueDate": "2027-07-01",
+          "openingBalance": 87799,
+          "emiAmount": 11307,
+          "principalComponent": 10722,
+          "interestComponent": 585,
+          "outstandingBalance": 77077,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 18,
+          "dueDate": "2027-08-01",
+          "openingBalance": 77077,
+          "emiAmount": 11307,
+          "principalComponent": 10793,
+          "interestComponent": 514,
+          "outstandingBalance": 66284,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 19,
+          "dueDate": "2027-09-01",
+          "openingBalance": 66284,
+          "emiAmount": 11307,
+          "principalComponent": 10865,
+          "interestComponent": 442,
+          "outstandingBalance": 55419,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 20,
+          "dueDate": "2027-10-01",
+          "openingBalance": 55419,
+          "emiAmount": 11307,
+          "principalComponent": 10938,
+          "interestComponent": 369,
+          "outstandingBalance": 44481,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 21,
+          "dueDate": "2027-11-01",
+          "openingBalance": 44481,
+          "emiAmount": 11307,
+          "principalComponent": 11010,
+          "interestComponent": 297,
+          "outstandingBalance": 33471,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 22,
+          "dueDate": "2027-12-01",
+          "openingBalance": 33471,
+          "emiAmount": 11307,
+          "principalComponent": 11084,
+          "interestComponent": 223,
+          "outstandingBalance": 22387,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 23,
+          "dueDate": "2028-01-01",
+          "openingBalance": 22387,
+          "emiAmount": 11307,
+          "principalComponent": 11158,
+          "interestComponent": 149,
+          "outstandingBalance": 11229,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 24,
+          "dueDate": "2028-02-01",
+          "openingBalance": 11229,
+          "emiAmount": 11304,
+          "principalComponent": 11229,
+          "interestComponent": 75,
+          "outstandingBalance": 0,
+          "isPaid": false,
+          "paidAt": null
+        }
+      ],
+      "summary": {
+        "principal": 250000,
+        "tenureMonths": 24,
+        "annualInterestRatePct": 8,
+        "totalInterestPaid": 21365,
+        "totalAmountPaid": 271365,
+        "finalBalance": 0
+      },
+      "foreclosureDetails": null,
+      "createdAt": "2026-02-01"
+    },
+    {
+      "id": "LN-2026-003",
+      "memberId": "MBR-103",
+      "memberName": "Rohan Verma",
+      "principal": 60000,
+      "tenureMonths": 6,
+      "annualInterestRate": 0.08,
+      "monthlyEmi": 10235,
+      "outstandingBalance": 0,
+      "status": "Closed",
+      "startDate": "2025-08-01",
+      "schedule": [
+        {
+          "emiNumber": 1,
+          "dueDate": "2025-09-01",
+          "openingBalance": 60000,
+          "emiAmount": 10235,
+          "principalComponent": 9835,
+          "interestComponent": 400,
+          "outstandingBalance": 50165,
+          "isPaid": true,
+          "paidAt": "2025-09-01"
+        },
+        {
+          "emiNumber": 2,
+          "dueDate": "2025-10-01",
+          "openingBalance": 50165,
+          "emiAmount": 10235,
+          "principalComponent": 9901,
+          "interestComponent": 334,
+          "outstandingBalance": 40264,
+          "isPaid": true,
+          "paidAt": "2025-10-01"
+        },
+        {
+          "emiNumber": 3,
+          "dueDate": "2025-11-01",
+          "openingBalance": 40264,
+          "emiAmount": 10235,
+          "principalComponent": 9967,
+          "interestComponent": 268,
+          "outstandingBalance": 30297,
+          "isPaid": true,
+          "paidAt": "2025-11-01"
+        },
+        {
+          "emiNumber": 4,
+          "dueDate": "2025-12-01",
+          "openingBalance": 30297,
+          "emiAmount": 10235,
+          "principalComponent": 10033,
+          "interestComponent": 202,
+          "outstandingBalance": 20264,
+          "isPaid": true,
+          "paidAt": "2025-12-01"
+        },
+        {
+          "emiNumber": 5,
+          "dueDate": "2026-01-01",
+          "openingBalance": 20264,
+          "emiAmount": 10235,
+          "principalComponent": 10100,
+          "interestComponent": 135,
+          "outstandingBalance": 10164,
+          "isPaid": true,
+          "paidAt": "2026-01-01"
+        },
+        {
+          "emiNumber": 6,
+          "dueDate": "2026-02-01",
+          "openingBalance": 10164,
+          "emiAmount": 10232,
+          "principalComponent": 10164,
+          "interestComponent": 68,
+          "outstandingBalance": 0,
+          "isPaid": true,
+          "paidAt": "2026-02-01"
+        }
+      ],
+      "summary": {
+        "principal": 60000,
+        "tenureMonths": 6,
+        "annualInterestRatePct": 8,
+        "totalInterestPaid": 1407,
+        "totalAmountPaid": 61407,
+        "finalBalance": 0
+      },
+      "foreclosureDetails": null,
+      "createdAt": "2025-08-01"
+    },
+    {
+      "id": "LN-2026-004",
+      "memberId": "MBR-104",
+      "memberName": "Ananya Iyer",
+      "principal": 180000,
+      "tenureMonths": 18,
+      "annualInterestRate": 0.08,
+      "monthlyEmi": 10645,
+      "outstandingBalance": 180000,
+      "status": "Active",
+      "startDate": "2026-03-01",
+      "schedule": [
+        {
+          "emiNumber": 1,
+          "dueDate": "2026-04-01",
+          "openingBalance": 180000,
+          "emiAmount": 10645,
+          "principalComponent": 9445,
+          "interestComponent": 1200,
+          "outstandingBalance": 170555,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 2,
+          "dueDate": "2026-05-01",
+          "openingBalance": 170555,
+          "emiAmount": 10645,
+          "principalComponent": 9508,
+          "interestComponent": 1137,
+          "outstandingBalance": 161047,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 3,
+          "dueDate": "2026-06-01",
+          "openingBalance": 161047,
+          "emiAmount": 10645,
+          "principalComponent": 9571,
+          "interestComponent": 1074,
+          "outstandingBalance": 151476,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 4,
+          "dueDate": "2026-07-01",
+          "openingBalance": 151476,
+          "emiAmount": 10645,
+          "principalComponent": 9635,
+          "interestComponent": 1010,
+          "outstandingBalance": 141841,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 5,
+          "dueDate": "2026-08-01",
+          "openingBalance": 141841,
+          "emiAmount": 10645,
+          "principalComponent": 9699,
+          "interestComponent": 946,
+          "outstandingBalance": 132142,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 6,
+          "dueDate": "2026-09-01",
+          "openingBalance": 132142,
+          "emiAmount": 10645,
+          "principalComponent": 9764,
+          "interestComponent": 881,
+          "outstandingBalance": 122378,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 7,
+          "dueDate": "2026-10-01",
+          "openingBalance": 122378,
+          "emiAmount": 10645,
+          "principalComponent": 9829,
+          "interestComponent": 816,
+          "outstandingBalance": 112549,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 8,
+          "dueDate": "2026-11-01",
+          "openingBalance": 112549,
+          "emiAmount": 10645,
+          "principalComponent": 9895,
+          "interestComponent": 750,
+          "outstandingBalance": 102654,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 9,
+          "dueDate": "2026-12-01",
+          "openingBalance": 102654,
+          "emiAmount": 10645,
+          "principalComponent": 9961,
+          "interestComponent": 684,
+          "outstandingBalance": 92693,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 10,
+          "dueDate": "2027-01-01",
+          "openingBalance": 92693,
+          "emiAmount": 10645,
+          "principalComponent": 10027,
+          "interestComponent": 618,
+          "outstandingBalance": 82666,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 11,
+          "dueDate": "2027-02-01",
+          "openingBalance": 82666,
+          "emiAmount": 10645,
+          "principalComponent": 10094,
+          "interestComponent": 551,
+          "outstandingBalance": 72572,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 12,
+          "dueDate": "2027-03-01",
+          "openingBalance": 72572,
+          "emiAmount": 10645,
+          "principalComponent": 10161,
+          "interestComponent": 484,
+          "outstandingBalance": 62411,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 13,
+          "dueDate": "2027-04-01",
+          "openingBalance": 62411,
+          "emiAmount": 10645,
+          "principalComponent": 10229,
+          "interestComponent": 416,
+          "outstandingBalance": 52182,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 14,
+          "dueDate": "2027-05-01",
+          "openingBalance": 52182,
+          "emiAmount": 10645,
+          "principalComponent": 10297,
+          "interestComponent": 348,
+          "outstandingBalance": 41885,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 15,
+          "dueDate": "2027-06-01",
+          "openingBalance": 41885,
+          "emiAmount": 10645,
+          "principalComponent": 10366,
+          "interestComponent": 279,
+          "outstandingBalance": 31519,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 16,
+          "dueDate": "2027-07-01",
+          "openingBalance": 31519,
+          "emiAmount": 10645,
+          "principalComponent": 10435,
+          "interestComponent": 210,
+          "outstandingBalance": 21084,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 17,
+          "dueDate": "2027-08-01",
+          "openingBalance": 21084,
+          "emiAmount": 10645,
+          "principalComponent": 10504,
+          "interestComponent": 141,
+          "outstandingBalance": 10580,
+          "isPaid": false,
+          "paidAt": null
+        },
+        {
+          "emiNumber": 18,
+          "dueDate": "2027-09-01",
+          "openingBalance": 10580,
+          "emiAmount": 10651,
+          "principalComponent": 10580,
+          "interestComponent": 71,
+          "outstandingBalance": 0,
+          "isPaid": false,
+          "paidAt": null
+        }
+      ],
+      "summary": {
+        "principal": 180000,
+        "tenureMonths": 18,
+        "annualInterestRatePct": 8,
+        "totalInterestPaid": 11616,
+        "totalAmountPaid": 191616,
+        "finalBalance": 0
+      },
+      "foreclosureDetails": null,
+      "createdAt": "2026-03-01"
+    }
+  ]
+}
