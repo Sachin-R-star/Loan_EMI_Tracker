@@ -24,7 +24,14 @@ export function AuthProvider({ children }) {
         body: JSON.stringify({ username, password })
       });
 
-      const data = await res.json();
+      let data;
+      try {
+        data = await res.json();
+      } catch {
+        const text = await res.text().catch(() => '');
+        throw new Error(text && text.length < 100 ? text : 'Invalid username or password');
+      }
+
       if (!res.ok) {
         throw new Error(data.error || 'Failed to authenticate');
       }
